@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "name":"调皮的按钮",
+  "version":"1.1",
+  "description":"让你点不到的按钮",
+  "content_scripts" : [
+    {
+      "matches": ["*://www.baidu.com/"],
+      "js": ["js/connot_touch.js"]
+    }
+  ]
+}

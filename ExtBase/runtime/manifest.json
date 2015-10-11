@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "runtime测试",
+  "version":"1.0.3",
+  "description":"runtime测试",
+  "browser_action":{
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  }
+}
